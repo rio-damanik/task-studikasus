@@ -14,7 +14,7 @@ const authRoute = require('./app/auth/routes');
 const cartRoute = require('./app/cart/routes');
 const orderRoute = require('./app/order/routes');
 const invoiceRoute = require('./app/invoice/routes');
-
+const db = require('./database/index');
 var app = express();
 
 // view engine setup
