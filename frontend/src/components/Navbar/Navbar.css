@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px; /* Increased padding for more space */
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 28px; /* Increased font size */
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 25px; /* Increased margin to space out logo */
+}
+
+.navbar-category select {
+  padding: 8px; /* Increased padding for larger feel */
+  font-size: 18px; /* Increased font size */
+  border-radius: 6px;
+  border: none;
+}
+
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 600px; /* Centers the content more */
+}
+
+.navbar-search {
+  width: 300px; /* Wider search bar */
+  padding: 10px; /* Increased padding */
+  border: none;
+  border-radius: 6px 0 0 6px;
+}
+
+.navbar-search-button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 16px; /* Increased padding */
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.navbar-search-button:hover {
+  background-color: #777;
+}
+
+.navbar-right .navbar-icon {
+  margin-left: 25px; /* Increased spacing between icons */
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 22px; /* Slightly larger icons */
+}
+
+.navbar-right .navbar-icon:hover {
+  color: #aaa;
+}
